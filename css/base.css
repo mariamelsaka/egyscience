@@ -1,7 +1,4 @@
-* {
-    font-family: "Berlin Sans FB";
-    
-    } 
+
 
     @media(max-width:1466px){
     
@@ -11,10 +8,8 @@
             }
             .header {
             height: 12vh;
-            width: 100%;
-            /* background-image:linear-gradient(rgba(255, 255, 255, 0.685),rgba(255, 255, 255, 0.685)) ;  */
+            width: 100%;       
             background-color:none; 
-            /* background-image:linear-gradient(#233B53,#233B53) ;  */
             background-position: center;
             background-size: cover;
             position: absolute;

@@ -1,277 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- normalize css -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <!-- bootstrap css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- font awesome css -->
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/podcast.css">
-    <title>podcast</title>
-    <link rel="icon" type="image/x-icon" href="image/logo-removebg-preview.png">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- font awesome css -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/podcast.css">
+  <link rel="stylesheet" href="index.css">
+  <title>Podcast</title>
+  <link rel="icon" type="image/x-icon" href="image/logo-removebg-preview.png">
 </head>
+
 <body>
-    <!-- start header -->
-    <header style="margin-top: 1px; margin-bottom: 10px;">
-         <!--start  media query -->
-         <div class="head" style="background-color: #245168;width: 600px;">
-            <div class="container">
-                <nav>
-                    <div class="nav-link" id="navLink">
-                        <ul>
-                            <img src="image/logo-removebg-preview.png" style="position: relative;right:150px;top:10px" class="rounded" height="60px" alt="logo">
-                            <li><a style="position: relative;right:150px"  href="podcasts.html">Podcasts</a></li>
-                            <li><a style="position: relative;right:70px" href="index.html">Home</a></li>
-                            <li><a style="position: relative;right:20px" style=""  href="videos.html">Videos</a></li>
-                            <li><a style="padding-left: 20px;"  href="blogs.html">Blogs</a></li>
-                            <li><a style="padding-left: 50px;"  href="home.html#contact_us">contactUs</a></li>
-                        
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </div>
-        <!--end  media query -->
-        <!-- start carasol -->
-        <div id="carouselExampleCaptions" class="carousel carousel-dark
-            slide"
-            data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <section class="carasoul">
-                    <div id="img" class="carousel-item active">
-                        <img src="image/pod_back.jpg" height="700px"
-                            class="d-block w-100" alt="">
-                    </div>
-                </section>
 
-                <!-- start navbar -->
-                <section class="header">
-                    <nav>
-                        <img src="image/logo-removebg-preview.png"
-                            class="rounded" height="70px" alt="logo">
-                        <div class="nav-link" id="navLink">
-                            <ul style="margin-right: 200px;">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="videos.html">Videos</a></li>
-                                <li><a href="podcasts.html">Podcasts</a></li>
-                                <li><a href="blogs.html">Blogs</a></li>
-                                <li><a href="index.html#contact_us">Contact Us</a></li>
-                            </ul>
-                        </div>
-                    </nav>
-                </section>
-                <!-- end navbar -->
-            </div>
-            <!-- end carasol-->
-        </div>
-    </header>
-<!-- end header -->
-
-
-<main>
-    <section  class="card_video">
-    <div class="row">
-        <div class="col-4" >
-            <div class="card">
-                <div class="card-body shadow">
-                    <bdo dir="rtl" >
-                        <h3>في حب الامهات
-                        </h3>
-                    </bdo>
-                            <img src="image/podacst3.jpg" style="margin-top:6px ;" width="50%" height="50%" alt="">
-                            <audio style="margin-top: 28px;"  controls>
-                                <source   src="podcast/1. الانفجار العظيم - بودكاست علمي جدًا 2 (128 kbps).mp3">
-                            </audio>
-                </div>
-            </div>
-            
-        </div>
-        <div class="col-4">
-            <div class="card" >
-                <div class="card-body shadow"  >
-                    <bdo dir="rtl" >
-                        <h3>الانفجار العظيم
-                        </h3>
-                    </bdo>
-                            <img src="image/podcasr2.jpg" style="margin-top:6px ;" width="50%" height="50%" alt="">
-                            <audio style="margin-top: 33px;"  controls>
-                                <source   src="podcast/1. الانفجار العظيم - بودكاست علمي جدًا 2 (128 kbps).mp3">
-                            </audio>
-                </div>
-            </div>
-            
-        </div>
-        <div class="col-4">
-            <div class="card">
-                <div class="card-body shadow">
-                    <bdo dir="rtl" >
-                        <h3>كلك على بعضك جميل
-                        </h3>
-                    </bdo>
-                    <img src="image/podcast1.jpeg" width="50%" height="50%" alt="">
-                    <audio  controls>
-                        <source  src="podcast/1. الانفجار العظيم - بودكاست علمي جدًا 2 (128 kbps).mp3">
-                    </audio>
-                </div>
-            </div>
-            
-        </div>
-        
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark" id="navpage">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="image/logo-removebg-preview.png" alt="Logo" height="50">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav fs-5">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="videos.html">Videos</a></li>
+          <li class="nav-item"><a class="nav-link active" href="podcasts.html">Podcasts</a></li>
+          <li class="nav-item"><a class="nav-link" href="blogs.html">Blogs</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#contact_us">Contact Us</a></li>
+        </ul>
+      </div>
     </div>
+  </nav>
+  <!-- End Navbar -->
 
-    <div class="row">
-        <div class="col-4">
-            <div class="card" >
-                <div class="card-body shadow">
-                    <bdo dir="rtl" >
-                        <h3>سيارات بلا سائق
-                        </h3>
-                    </bdo>
-                            <img src="image/podcast4.jpg" width="50%" height="50%" alt="">
-                            <audio  controls>
-                                <source  src="podcast/1. الانفجار العظيم - بودكاست علمي جدًا 2 (128 kbps).mp3">
-                            </audio>
-                </div>
-            </div>
-            
-        </div>
-
-        <div class="col-4">
-            <div class="card" >
-                <div class="card-body shadow">
-                    <bdo dir="rtl" >
-                        <h3>نظرية السلطعون
-                        </h3>
-                    </bdo>
-                            <img src="image/podcast5.jpg" width="50%" height="50%" alt="">
-                            <audio  controls>
-                                <source  src="podcast/1. الانفجار العظيم - بودكاست علمي جدًا 2 (128 kbps).mp3">
-                            </audio>
-                </div>
-            </div>
-            
-        </div>
-        <div class="col-4">
-            <div class="card" >
-                <div class="card-body shadow">
-                    <bdo dir="rtl" >
-                        <h3>ايه يا نجم
-                        </h3>
-                    </bdo>
-                    <img src="image/podcast6.jpg" width="50%" height="50%" alt="">
-                    <audio  controls>
-                        <source  src="podcast/1. الانفجار العظيم - بودكاست علمي جدًا 2 (128 kbps).mp3">
-                    </audio>
-                </div>
-            </div>
-            
-        </div>
-        
+  <!-- Hero Carousel -->
+  <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="image/pod_back.jpg" class="d-block w-100" style="max-height:700px;object-fit:cover;"
+          alt="Podcast banner">
+      </div>
     </div>
-    <div class="row">
+  </div>
+  <!-- End Carousel -->
 
-        <div class="col-4">
-            <div class="card" >
-                <div class="card-body shadow">
-                    <bdo dir="rtl" >
-                        <h3>الصح في الاغلبيه
-                        </h3>
-                    </bdo>
-                            <img src="image/podcast7.jpg" width="50%" height="50%" alt="">
-                            <audio  controls>
-                                <source  src="podcast/1. الانفجار العظيم - بودكاست علمي جدًا 2 (128 kbps).mp3">
-                            </audio>
-                </div>
-            </div>
-            
-        </div>
+  <!-- Podcast Section -->
+  <main class="container py-5">
+    <h2 class="text-center mb-4 fw-bold">🎙️ Latest Podcasts</h2>
 
-        <div class="col-4">
-            <div class="card" >
-                <div class="card-body shadow" >
-                    <bdo dir="rtl" >
-                        <h3>
-                            وهم الابراج
+    <div class="row g-4">
+      <!-- 1 -->
+      <div class="col-12 col-sm-6 col-lg-4 d-flex">
+        <div class="card h-100 shadow-sm border-0 flex-fill">
+          <img src="image/podacst3.jpg" class="card-img-top" alt="في حب الامهات">
+          <div class="card-body text-center d-flex flex-column justify-content-between">
+            <h5 class="card-title">في حب الامهات</h5>
+            <audio controls class="w-100 mt-3">
+              <source src="podcast/podcast.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+        </div>
+      </div>
 
-                        </h3>
-                    </bdo>
-                            <img src="image/podcast9.jpg" style="margin-top:6px ;" width="50%" height="50%" alt="">
-                            <audio  controls style="margin-top: 28px;"> 
-                                <source   src="podcast/1. الانفجار العظيم - بودكاست علمي جدًا 2 (128 kbps).mp3">
-                            </audio>
-                </div>
-            </div>
-            
+      <!-- 2 -->
+      <div class="col-12 col-sm-6 col-lg-4 d-flex">
+        <div class="card h-100 shadow-sm border-0 flex-fill">
+          <img src="image/podcasr2.jpg" class="card-img-top" alt="الانفجار العظيم">
+          <div class="card-body text-center d-flex flex-column justify-content-between">
+            <h5 class="card-title">الانفجار العظيم</h5>
+            <audio controls class="w-100 mt-3">
+              <source src="podcast/podcast.mp3" type="audio/mpeg">
+            </audio>
+          </div>
         </div>
-        <div class="col-4">
-            <div class="card"style="width: 400px;">
-                <div class="card-body shadow">
-                    <bdo dir="rtl" >
-                        <h3>اين ذهب الفضائيون
-                        </h3>
-                    </bdo>
-                    <img src="image/podcast8.jpg" width="50%" height="50%" alt="">
-                    <audio  controls>
-                        <source  src="podcast/1. الانفجار العظيم - بودكاست علمي جدًا 2 (128 kbps).mp3">
-                    </audio>
-                </div>
-            </div>
-            
+      </div>
+
+      <!-- 3 -->
+      <div class="col-12 col-sm-6 col-lg-4 d-flex">
+        <div class="card h-100 shadow-sm border-0 flex-fill">
+          <img src="image/podcast1.jpeg" class="card-img-top" alt="كلك على بعضك جميل">
+          <div class="card-body text-center d-flex flex-column justify-content-between">
+            <h5 class="card-title">كلك على بعضك جميل</h5>
+            <audio controls class="w-100 mt-3">
+              <source src="podcast/podcast.mp3" type="audio/mpeg">
+            </audio>
+          </div>
         </div>
-        
+      </div>
+
+      <!-- 4 -->
+      <div class="col-12 col-sm-6 col-lg-4 d-flex">
+        <div class="card h-100 shadow-sm border-0 flex-fill">
+          <img src="image/podcast4.jpg" class="card-img-top" alt="سيارات بلا سائق">
+          <div class="card-body text-center d-flex flex-column justify-content-between">
+            <h5 class="card-title">سيارات بلا سائق</h5>
+            <audio controls class="w-100 mt-3">
+              <source src="podcast/podcast.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5 -->
+      <div class="col-12 col-sm-6 col-lg-4 d-flex">
+        <div class="card h-100 shadow-sm border-0 flex-fill">
+          <img src="image/podcast5.jpg" class="card-img-top" alt="نظرية السلطعون">
+          <div class="card-body text-center d-flex flex-column justify-content-between">
+            <h5 class="card-title">نظرية السلطعون</h5>
+            <audio controls class="w-100 mt-3">
+              <source src="podcast/podcast.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+        </div>
+      </div>
+
+      <!-- 6 -->
+      <div class="col-12 col-sm-6 col-lg-4 d-flex">
+        <div class="card h-100 shadow-sm border-0 flex-fill">
+          <img src="image/podcast6.jpg" class="card-img-top" alt="ايه يا نجم">
+          <div class="card-body text-center d-flex flex-column justify-content-between">
+            <h5 class="card-title">ايه يا نجم</h5>
+            <audio controls class="w-100 mt-3">
+              <source src="podcast/podcast.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+        </div>
+      </div>
+
+      <!-- 7 -->
+      <div class="col-12 col-sm-6 col-lg-4 d-flex">
+        <div class="card h-100 shadow-sm border-0 flex-fill">
+          <img src="image/podcast7.jpg" class="card-img-top" alt="الصح في الاغلبيه">
+          <div class="card-body text-center d-flex flex-column justify-content-between">
+            <h5 class="card-title">الصح في الاغلبيه</h5>
+            <audio controls class="w-100 mt-3">
+              <source src="podcast/podcast.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+        </div>
+      </div>
+
+      <!-- 8 -->
+      <div class="col-12 col-sm-6 col-lg-4 d-flex">
+        <div class="card h-100 shadow-sm border-0 flex-fill">
+          <img src="image/podcast9.jpg" class="card-img-top" alt="وهم الابراج">
+          <div class="card-body text-center d-flex flex-column justify-content-between">
+            <h5 class="card-title">وهم الابراج</h5>
+            <audio controls class="w-100 mt-3">
+              <source src="podcast/podcast.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+        </div>
+      </div>
+
+      <!-- 9 -->
+      <div class="col-12 col-sm-6 col-lg-4 d-flex">
+        <div class="card h-100 shadow-sm border-0 flex-fill">
+          <img src="image/podcast8.jpg" class="card-img-top" alt="اين ذهب الفضائيون">
+          <div class="card-body text-center d-flex flex-column justify-content-between">
+            <h5 class="card-title">اين ذهب الفضائيون</h5>
+            <audio controls class="w-100 mt-3">
+              <source src="podcast/podcast.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+        </div>
+      </div>
+
     </div>
-    </section>
-</main>
+  </main>
+  <!-- End Podcast Section -->
+
+  <!-- Footer -->
+  <footer class="mt-5" style="background-color:#245168;">
+    <div class="container">
+      <nav class="d-flex flex-column flex-md-row justify-content-between align-items-center py-3">
+        <!-- Logo -->
+        <a href="index.html" class="mb-3 mb-md-0">
+          <img src="image/logo-removebg-preview.png" alt="Logo" height="60" class="rounded">
+        </a>
+
+        <!-- Links -->
+        <ul class="nav flex-column flex-md-row text-center">
+          <li class="nav-item"><a href="index.html" class="nav-link px-3 text-white">Home</a></li>
+          <li class="nav-item"><a href="videos.html" class="nav-link px-3 text-white">Videos</a></li>
+          <li class="nav-item"><a href="podcasts.html" class="nav-link px-3 text-white">Podcasts</a></li>
+          <li class="nav-item"><a href="blogs.html" class="nav-link px-3 text-white">Blogs</a></li>
+          <li class="nav-item"><a href="index.html#contact_us" class="nav-link px-3 text-white">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/all.min.js"></script>
+  <script>
+    function toggleNavbarFixed() {
+      let navbar = document.querySelector(".navbar");
+
+      if (window.innerWidth >= 992) {
+        navbar.classList.add("fixed-top"); // أو sm-fixed-top
+      } else {
+        navbar.classList.remove("fixed-top"); // أو sm-fixed-top
+      }
+    }
 
 
-<!-- start footer -->
-    <footer>
-        <div class="p-0 mb-0" id="laptop" style="background-color: #245168;">
-            <div class="container">
-                    <nav>
-                        <img src="image/logo-removebg-preview.png" class="rounded" height="60px" alt="logo">
-                            <div class="nav-link" id="navLink">
-                                <ul style="margin-right: 200px; ">
-                                    <li><a href="home.html">Home</a></li>
-                                    <li><a href="videos.html">Videos</a></li>
-                                    <li><a href="podcasts.html">Podcasts</a></li>
-                                    <li><a href="blogs.html">Blogs</a></li>
-                                    <li><a href="home.html#contact_us">Contact Us</a></li>
-                                </ul>
-                            </div>
-                        </nav>
-            </div>
-        </div>
-         <!--start  media query -->
-         <div class="head" id="mobile" style="background-color: #245168;width: 600px;">
-            <div class="container">
-                <nav>
-                    <div class="nav-link" id="navLink">
-                        <ul>
-                            <img src="image/logo-removebg-preview.png" style="position: relative;right:150px;top:10px" class="rounded" height="60px" alt="logo">
-                            <li><a style="position: relative;right:150px"  href="podcasts.html">Podcasts</a></li>
-                            <li><a style="position: relative;right:70px" href="index.html">Home</a></li>
-                            <li><a style="position: relative;right:20px" style=""  href="videos.html">Videos</a></li>
-                            <li><a style="padding-left: 20px;"  href="blogs.html">Blogs</a></li>
-                            <li><a style="padding-left: 50px;"  href="index.html#contact_us">contactUs</a></li>
-                        
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </div>
-        <!--end  media query -->
-    </footer>
-    <!-- end footer -->
-    <!-- bootstrap js -->
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <!-- font awesome js -->
-    <script src="js/all.min.js"></script>
-    
+    toggleNavbarFixed();
+
+
+    window.addEventListener("resize", toggleNavbarFixed);
+
+  </script>
 </body>
+
 </html>

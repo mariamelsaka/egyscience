@@ -1,160 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- normalize css -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <!-- bootstrap css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- font awesome css -->
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/blogs.css">
-    <title>Blogs</title>
-    <link rel="icon" type="image/x-icon" href="image/logo-removebg-preview.png">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- normalize css -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- font awesome css -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/blogs.css">
+  <title>Blogs</title>
+  <link rel="icon" type="image/x-icon" href="image/logo-removebg-preview.png">
 </head>
+
 <body>
-    <!-- start header -->
-    <header style="margin-top: 1px; margin-bottom: 10px;">
-        <!--start  media query -->
-        <div class="head" style="background-color: #245168;width: 600px;">
-            <div class="container">
-                <nav>
-                    <div class="nav-link" id="navLink">
-                        <ul>
-                            <img src="image/logo-removebg-preview.png" style="position: relative;right:150px;top:10px" class="rounded" height="60px" alt="logo">
-                            <li><a style="position: relative;right:150px"  href="podcasts.html">Podcasts</a></li>
-                            <li><a style="position: relative;right:70px" href="index.html">Home</a></li>
-                            <li><a style="position: relative;right:20px" style=""  href="videos.html">Videos</a></li>
-                            <li><a style="padding-left: 20px;"  href="blogs.html">Blogs</a></li>
-                            <li><a style="padding-left: 50px;"  href="home.html#contact_us">contactUs</a></li>
-                        
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </div>
-        <!--end  media query -->
-        <!-- start carasol -->
-        <div id="carouselExampleCaptions" class="carousel carousel-dark
-            slide"
-            data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <section class="carasoul">
-                    <div id="img" class="carousel-item active">
-                        <img src="image/blogs_back.jpg" height="700px"
-                            class="d-block w-100" alt="">
-                    </div>
-                </section>
-                <!-- start navbar -->
-                <section class="header">
-                    <nav>
-                        <img src="image/logo-removebg-preview.png"
-                            class="rounded" height="70px" alt="logo">
-                        <div class="nav-link" id="navLink">
-                            <ul style="margin-right: 200px;">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="videos.html">Videos</a></li>
-                                <li><a href="podcasts.html">Podcasts</a></li>
-                                <li><a href="blogs.html">Blogs</a></li>
-                                <li><a href="index.html#contact_us">Contact Us</a></li>
-                            </ul>
-                        </div>
-                    </nav>
-                </section>
-                <!-- end navbar -->
-            </div>
-            <!-- end carasol-->
-        </div>
-    </header>
-    <!-- end header -->
+  <!-- start header -->
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark" id="navpage">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="image/logo-removebg-preview.png" alt="Logo" height="50">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav fs-5">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="videos.html">Videos</a></li>
+          <li class="nav-item"><a class="nav-link active" href="podcasts.html">Podcasts</a></li>
+          <li class="nav-item"><a class="nav-link" href="blogs.html">Blogs</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#contact_us">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
 
-<div class="row" style="margin-bottom: 40px;">
-    <div class="col-6">
-        <div class="card shadow" style="width:90% ;">
-            <div class="card-body">
-            <img src="image/silence.png" width="100%"    alt="silence" usemap="#silence">
-            <iframe src="https://egychology.blogspot.com/2021/01/silence.html" width="100%"    height="500px"  frameborder="0"></iframe>
-            </div>
-        </div>
+  <!-- Hero Carousel -->
+  <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="image/blogs_back.jpg" class="d-block w-100" style="max-height:700px;object-fit:cover;"
+          alt="Podcast banner">
+      </div>
     </div>
-    <div class="col-6">
-        <div class="card shadow" style="width:90% ;">
-            <div class="card-body">
-            <img src="image/happysuccess.png" width="100%"    alt="silence" usemap="#silence">
-            <iframe src="https://egychology.blogspot.com/2020/11/defining-happiness-with-success-is.html" width="100%"    height="500px"  frameborder="0"></iframe>
-            </div>
+  </div>
+  <!-- End Carousel -->
+  <!-- end header -->
+
+  <div class="row" style="margin-bottom: 40px;">
+    <div class="col-md-6 col-sm-12">
+      <div class="card shadow">
+        <div class="card-body">
+          <img src="image/silence.png" width="100%" alt="silence" usemap="#silence">
+          <iframe src="https://egychology.blogspot.com/2021/01/silence.html" width="100%" height="500px"
+            frameborder="0"></iframe>
         </div>
+      </div>
     </div>
-   
-</div>
-<div class="row" style="margin-bottom: 40px;">
-    <div class="col-6">
-        <div class="card shadow" style="width:90% ;">
-            <div class="card-body">
-            <img src="image/ccpart1.png" width="100%"    alt="silence" usemap="#silence">
-            <iframe src="https://egychology.blogspot.com/2020/07/corona-chronicles-part-i-intro.html" width="100%"    height="500px"  frameborder="0"></iframe>
-            </div>
+    <div class="col-md-6 col-sm-12">
+      <div class="card shadow">
+        <div class="card-body">
+          <img src="image/happysuccess.png" width="100%" alt="silence" usemap="#silence">
+          <iframe src="https://egychology.blogspot.com/2020/11/defining-happiness-with-success-is.html" width="100%"
+            height="500px" frameborder="0"></iframe>
         </div>
+      </div>
     </div>
-    <div class="col-6">
-        <div class="card shadow" style="width:90% ;">
-            <div class="card-body">
-            <img src="image/hurt.png" width="100%"    alt="silence" usemap="#silence">
-            <iframe src="https://egychology.blogspot.com/2020/02/hurt-scientifically-emotional-excerpt.html" width="100%"    height="500px"  frameborder="0"></iframe>
-            </div>
+
+  </div>
+  <div class="row" style="margin-bottom: 40px;">
+    <div class="col-md-6 col-sm-12">
+      <div class="card shadow">
+        <div class="card-body">
+          <img src="image/ccpart1.png" width="100%" alt="silence" usemap="#silence">
+          <iframe src="https://egychology.blogspot.com/2020/07/corona-chronicles-part-i-intro.html" width="100%"
+            height="500px" frameborder="0"></iframe>
         </div>
+      </div>
     </div>
-   
-</div>
-<div class="row" style="margin-bottom: 40px;">
-    <div class="col-6">
-        <div class="card shadow" style="width:90% ;">
-            <div class="card-body">
-            <img src="image/troublingthoughts.png" width="100%"    alt="silence" usemap="#silence">
-            <iframe src="https://egychology.blogspot.com/2020/01/troublesome-thoughts.html" width="100%"    height="500px"  frameborder="0"></iframe>
-            </div>
+    <div class="col-md-6 col-sm-12">
+      <div class="card shadow">
+        <div class="card-body">
+          <img src="image/hurt.png" width="100%" alt="silence" usemap="#silence">
+          <iframe src="https://egychology.blogspot.com/2020/02/hurt-scientifically-emotional-excerpt.html" width="100%"
+            height="500px" frameborder="0"></iframe>
         </div>
+      </div>
     </div>
-    <div class="col-6">
-        <div class="card shadow" style="width:90% ;">
-            <div class="card-body">
-            <img src="image/choosinglove.png" width="100%"    alt="silence" usemap="#silence">
-            <iframe src="https://egychology.blogspot.com/2019/09/choosing-love.html" width="100%"    height="500px"  frameborder="0"></iframe>
-            </div>
+
+  </div>
+  <div class="row" style="margin-bottom: 40px;">
+    <div class="col-md-6 col-sm-12">
+      <div class="card shadow">
+        <div class="card-body">
+          <img src="image/troublingthoughts.png" width="100%" alt="silence" usemap="#silence">
+          <iframe src="https://egychology.blogspot.com/2020/01/troublesome-thoughts.html" width="100%" height="500px"
+            frameborder="0"></iframe>
         </div>
+      </div>
     </div>
-   
-</div>
+    <div class="col-md-6 col-sm-12">
+      <div class="card shadow">
+        <div class="card-body">
+          <img src="image/choosinglove.png" width="100%" alt="silence" usemap="#silence">
+          <iframe src="https://egychology.blogspot.com/2019/09/choosing-love.html" width="100%" height="500px"
+            frameborder="0"></iframe>
+        </div>
+      </div>
+    </div>
+
+  </div>
 
 
 
-<!-- start footer -->
-    <footer>
-        <div class="p-0 mb-0" style="background-color: #245168;">
-            <div class="container">
-                    <nav>
-                        <img src="image/logo-removebg-preview.png" class="rounded" height="60px" alt="logo">
-                            <div class="nav-link" id="navLink">
-                                <ul style="margin-right: 200px; ">
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="videos.html">Videos</a></li>
-                                    <li><a href="podcasts.html">Podcasts</a></li>
-                                    <li><a href="blogs.html">Blogs</a></li>
-                                    <li><a href="index.html#contact_us">Contact Us</a></li>
-                                </ul>
-                            </div>
-                        </nav>
-            </div>
-        </div>
-    </footer>
-    <!-- end footer -->
-    <!-- bootstrap js -->
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <!-- font awesome js -->
-    <script src="js/all.min.js"></script>
-    
+  <!-- Footer -->
+  <footer class="mt-5" style="background-color:#245168;">
+    <div class="container">
+      <nav class="d-flex flex-column flex-md-row justify-content-between align-items-center py-3">
+        <!-- Logo -->
+        <a href="index.html" class="mb-3 mb-md-0">
+          <img src="image/logo-removebg-preview.png" alt="Logo" height="60" class="rounded">
+        </a>
+
+        <!-- Links -->
+        <ul class="nav flex-column flex-md-row text-center">
+          <li class="nav-item"><a href="index.html" class="nav-link px-3 text-white">Home</a></li>
+          <li class="nav-item"><a href="videos.html" class="nav-link px-3 text-white">Videos</a></li>
+          <li class="nav-item"><a href="podcasts.html" class="nav-link px-3 text-white">Podcasts</a></li>
+          <li class="nav-item"><a href="blogs.html" class="nav-link px-3 text-white">Blogs</a></li>
+          <li class="nav-item"><a href="index.html#contact_us" class="nav-link px-3 text-white">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/all.min.js"></script>
+  <script>
+    function toggleNavbarFixed() {
+      let navbar = document.querySelector(".navbar");
+
+      if (window.innerWidth >= 992) {
+        navbar.classList.add("fixed-top"); // أو sm-fixed-top
+      } else {
+        navbar.classList.remove("fixed-top"); // أو sm-fixed-top
+      }
+    }
+
+    // شغلها أول ما الصفحة تفتح
+    toggleNavbarFixed();
+
+    // وشغلها لما يتغير حجم الشاشة
+    window.addEventListener("resize", toggleNavbarFixed);
+
+  </script>
+
 </body>
+
 </html>
